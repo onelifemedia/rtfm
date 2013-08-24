@@ -1,6 +1,6 @@
 {
     
-  "name": "grunt",
+  "name": "rtfm",
   "description": "Grab all of your documetnation in a certain format",
   "version": "0.0.1",
   "homepage": "https://github.com/onelifemedia/rtfm",
@@ -17,14 +17,17 @@
   },
   "preferGlobal": false,
   "engines": {
-    "node": ">= 0.8.0"
+    "node": "*"
   },
-  "scripts": {
-    "test": "grunt test"
+  "main": "./main",
+  "bin": {
+    "rtfm": "./bin/rtfm"
   },
   "dependencies": {
     "colors": "~0.6.0-1"
   },
+  "devDependencies": {},
+  "optionalDependencies": {},
   "keywords": [
     "rtfm",
     "console",
