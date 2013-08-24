@@ -1,0 +1,34 @@
+{
+    
+  "name": "grunt",
+  "description": "Grab all of your documetnation in a certain format",
+  "version": "0.0.1",
+  "homepage": "https://github.com/onelifemedia/rtfm",
+  "author": {
+    "name": "Jim Gibbs",
+    "url": "http://brandingbrand.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:onelifemedia/rtfm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onelifemedia/rtfm/issues"
+  },
+  "preferGlobal": false,
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "colors": "~0.6.0-1"
+  },
+  "keywords": [
+    "rtfm",
+    "console",
+    "documentation",
+    "project"
+  ]
+}
